@@ -61,7 +61,7 @@ Key processing steps included:
 - Standardized hourly activity date-time values by converting `ActivityHour` from STRING to DATETIME.
 - Investigated overlapping data on April 12, 2016 before combining collection periods.
 - For daily activity, retained the later dataset's April 12 observations because it contained broader participant coverage.
-- For hourly steps, confirmed that all 175 matching April 12 participant-hour records had identical `StepTotal` values and excluded the duplicate observations from the earlier dataset.
+- For hourly steps, confirmed that all **175 matching April 12 participant-hour records** had identical `StepTotal` values and excluded the duplicate observations from the earlier dataset.
 - Created final cleaned analysis tables:
   - `daily_activity_clean` — **1,373 records**
   - `hourly_steps_clean` — **46,008 records**
@@ -113,13 +113,13 @@ Participants were grouped using average daily steps:
 | Somewhat Active | 7,500–9,999 | 8 |
 | Active | 10,000+ | 7 |
 
-Of the 35 analyzed participants, **20 (approximately 57%)** were classified as Sedentary or Low Active.
+Of the **35 analyzed participants, 20 (approximately 57%)** were classified as Sedentary or Low Active.
 
 The Sedentary group averaged approximately **2,898 steps per day**, compared with approximately **12,694 steps per day** among Active users.
 
 ## Tableau Dashboards
 
-Two dashboards were developed in Tableau Public.
+Two interactive dashboards were developed in Tableau Public.
 
 ### Bellabeat Wellness & Activity Analysis
 
@@ -130,6 +130,8 @@ The first dashboard explores:
 - Daily steps vs. calories burned
 - Average sleep duration by activity level
 
+[View Interactive Dashboard](https://public.tableau.com/app/profile/david.engstrom8885/viz/BellabeatCaseStudyAnalysis_17863554089940/Dashboard1#1)
+
 ### Bellabeat Sleep & Activity Analysis
 
 The second dashboard explores:
@@ -138,6 +140,8 @@ The second dashboard explores:
 - Average sedentary minutes by day of week
 - Daily steps vs. sleep duration
 - Average sleep efficiency by activity level
+
+[View Interactive Dashboard](https://public.tableau.com/app/profile/david.engstrom8885/viz/BellabeatCaseStudyAnalysis_17863554089940/Dashboard2#1)
 
 Recorded sedentary time remained high throughout the week at approximately **970–1,030 minutes per day**, while sleep efficiency remained at **90% or greater across all activity levels**.
 
@@ -208,7 +212,7 @@ Bellabeat_Case_Study/
 
 For the complete methodology, data-quality investigation, SQL analysis, Tableau findings, and business recommendations, see:
 
-[**View the Full Bellabeat Case Study Report**](Report/Bellabeat_Case_Study_Report.pdf)
+[View the Full Bellabeat Case Study Report](Report/Bellabeat_Case_Study_Report.pdf)
 
 ---
 
