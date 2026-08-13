@@ -1,0 +1,5 @@
+activity_level,records,avg_steps,avg_hours_asleep,avg_hours_in_bed,avg_sleep_efficiency
+Sedentary,96,3054.0,7.57,8.24,92.83
+Low active,72,6241.0,7.01,7.61,92.05
+Somewhat active,77,8854.0,7.06,7.6,92.85
+Active,165,12526.0,6.6,7.32,90.22

@@ -1,0 +1,8 @@
+day_of_week,day_number,observations,avg_steps,avg_distance,avg_very_active_minutes,avg_fairly_active_minutes,avg_lightly_active_minutes,avg_sedentary_minutes,avg_calories
+Sunday,1,193,6607.0,4.76,18.0,13.0,170.0,1000.0,2227.0
+Monday,2,188,7541.0,5.37,22.0,13.0,185.0,1030.0,2298.0
+Tuesday,3,201,7719.0,5.53,21.0,14.0,195.0,1012.0,2339.0
+Wednesday,4,198,7548.0,5.46,20.0,13.0,190.0,995.0,2321.0
+Thursday,5,195,7268.0,5.2,19.0,13.0,181.0,985.0,2224.0
+Friday,6,199,7188.0,5.14,19.0,16.0,195.0,1020.0,2325.0
+Saturday,7,199,7752.0,5.54,21.0,14.0,201.0,969.0,2326.0

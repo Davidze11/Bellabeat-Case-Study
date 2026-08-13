@@ -1,0 +1,5 @@
+activity_segment,users,segment_avg_steps,avg_very_active_minutes,avg_sedentary_minutes
+Sedentary,11,2898.0,3.0,1171.0
+Low active,9,6419.0,7.0,1043.0
+Somewhat active,8,8658.0,32.0,813.0
+Active,7,12694.0,44.0,950.0
